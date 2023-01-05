@@ -29,7 +29,7 @@
 
 
 # Introduction
-This script is aimed to generate and check the provenance hash of NFT images. It uses 
+This script is used to generate and check the provenance hash of NFT images. It uses 
 the SHA256 algorithm to generate the hash. `hashlib` library is used to generate the 
 hash.
 
