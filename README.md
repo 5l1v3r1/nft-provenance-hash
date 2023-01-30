@@ -6,14 +6,14 @@
 <br>
 
 <div align="center">
-	| 
-    <a href="https://vusal.substack.com">blog</a> | 
-    <a href="https://gist.github.com/woosal1337">gist</a> | 
-    <a href="https://github.com/woosal1337/dotfiles">dotfiles</a> |  
-    <a href="https://www.reddit.com/user/woosal1337">reddit</a> | 
-    <a href="https://keybase.io/woosal">keybase</a> | 
+	|
+    <a href="https://vusal.substack.com">blog</a> |
+    <a href="https://gist.github.com/woosal1337">gist</a> |
+    <a href="https://github.com/woosal1337/dotfiles">dotfiles</a> |
+    <a href="https://www.reddit.com/user/woosal1337">reddit</a> |
+    <a href="https://keybase.io/woosal">keybase</a> |
     <a href="https://t.me/woosal1337">telegram</a> |
-    <a href="https://twitter.com/woosal1337">twitter</a> | 
+    <a href="https://twitter.com/woosal1337">twitter</a> |
     <a href="https://www.instagram.com/woosal1337/">instagram</a> |
     <a href="https://open.spotify.com/user/3pd70lv4jpyjbjxjfgysx3pzl">spotify</a> |
     <a href="https://discordapp.com/users/901937888688758785">discord</a> |
@@ -29,8 +29,8 @@
 
 
 # Introduction
-This script is used to generate and check the provenance hash of NFT images. It uses 
-the SHA256 algorithm to generate the hash. `hashlib` library is used to generate the 
+This script is used to generate and check the provenance hash of NFT images. It uses
+the SHA256 algorithm to generate the hash. `hashlib` library is used to generate the
 hash.
 
 Project Structure:
@@ -64,12 +64,13 @@ Project Structure:
 
 # Setup
 1. Environment setup:
-- The current code was run on Python 3.11.0, but it should work on Python 3.8+. Make 
+- The current code was run on Python 3.11.0, but it should work on Python 3.8+. Make
   sure to create a virtual environment and install the required packages:
 ```zsh
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
+$ pre-commit install
 ```
 
 2. Run the script in the correct path:
